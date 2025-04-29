@@ -1,9 +1,8 @@
-// 1. Variables, constantes y arrays
 const libros = ["Cien Años de Soledad", "1984", "El Principito", "Harry Potter", "Don Quijote"];
 const preciosAlquiler = [300, 250, 200, 400, 350];
 let alquileres = [];
 
-// 2. Funciones
+//Funciones
 function mostrarLibros() {
   console.clear();
   console.log("Lista de libros disponibles para alquilar:");
@@ -46,7 +45,7 @@ function finalizarAlquiler() {
   }
 }
 
-// 3. Programa principal
+//Programa principal
 alert("Bienvenido al simulador de alquiler de libros.");
 
 // Primer alquiler
