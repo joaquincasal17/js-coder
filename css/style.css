@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.global{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    background-color: cadetblue;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p a {
+    padding: 30px;
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------- nav ------------------------------------*/
+nav {
+    padding: 30px;
+}
+
+nav li{
+    font-size: x-large;
+    color: black;
+    list-style: none;
+}
+/* Navbar básica */
+.navbar {
+  background-color: #5f9ea0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Ítem del menú */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  position: relative;
+}
+
+/* Ícono del menú */
+.menu-icon {
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+/* Dropdown estilo tarjeta */
+.dropdown {
+  position: absolute;
+  top: 120%; /* un poco más abajo del ícono */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+/* Estilo de los ítems */
+.dropdown li {
+  padding: 10px 16px;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown li:hover {
+  background-color: #f2f2f2;
+}
+
+.hidden {
+  display: none;
+}
+
+
+h1{
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1;
+    gap: 20px;
+}
+form input {
+    width: 500px;
+    height: 30px;
+    padding:10px;
+}
+.form{
+    display: flex;
+    justify-content: center;    
+}
+.form button{
+    width: 30%;
+    height: 30px;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

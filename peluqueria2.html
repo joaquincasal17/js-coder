@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="global">
+  <header>
+    <p><a href="#">Barber CSL</a></p>
+    <nav class="navbar">
+    <ul class="menu">
+      <li class="menu-item">
+        <div id="menuIcon" class="menu-icon">
+          <ion-icon name="menu-outline" size="large"></ion-icon>
+        </div>
+        <ul id="dropdownTurnos" class="dropdown hidden">
+          <li>No hay turnos</li>
+        </ul>
+      </li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+  <h1>Agendar turno en la Peluquería</h1>
+  <form id="formTurno">
+    <input type="text" id="nombre" placeholder="Tu nombre" required />
+    <input type="date" id="fecha" required />
+    <input type="time" id="hora" required />
+    <select id="servicio" required>
+      <option value="">Selecciona un servicio</option>
+      <option value="Corte">Corte</option>
+      <option value="Coloración">Coloración</option>
+      <option value="Peinado">Peinado</option>
+    </select>
+    <div class="form">
+    <button type="submit">Agendar Turno</button>
+    </div>
+  </form>
+  
+
+</main>
+<footer>
+  <ul>
+    <li><p></p></li>
+  </ul>
+</footer>
+</div>
+<script  type = "module"  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js " > </script> 
+<script  nomodule  src = " https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js " > </script>
+<script src="js/turnos.js"></script>
+</body>
+</html>
